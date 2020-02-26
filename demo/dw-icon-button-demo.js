@@ -74,20 +74,50 @@ export class DwIconButtoDemo extends LitElement {
         <h3> Material Icons </h3>
         <section class="layout horizontal">
           <div class="layout vertical center">
-            <h4>Default</h4>
+            <h4>Default</h4>              
+              <dw-icon-button icon="alarm" ></dw-icon-button>
+              <dw-icon-button icon="backup" ></dw-icon-button>
+              <dw-icon-button icon="face" ></dw-icon-button>
+              <dw-icon-button icon="fingerprint" ></dw-icon-button>
+              <dw-icon-button icon="print" ></dw-icon-button>
+              <dw-icon-button icon="shopping_cart" ></dw-icon-button>
+              <dw-icon-button icon="search" ></dw-icon-button>
+              <dw-icon-button icon="perm_media" ></dw-icon-button>
             <dw-icon-button icon="perm_media"></dw-icon-button>
           </div>
           <div class="layout vertical center">
             <h4>Active</h4>
-            <dw-icon-button icon="perm_media" active></dw-icon-button>
+              <dw-icon-button icon="alarm" active></dw-icon-button>
+              <dw-icon-button icon="backup" active></dw-icon-button>
+              <dw-icon-button icon="face" active></dw-icon-button>
+              <dw-icon-button icon="fingerprint" active></dw-icon-button>
+              <dw-icon-button icon="print" active></dw-icon-button>
+              <dw-icon-button icon="shopping_cart" active></dw-icon-button>
+              <dw-icon-button icon="search" active></dw-icon-button>
+              <dw-icon-button icon="perm_media" active></dw-icon-button>
           </div>
           <div class="layout vertical center">
             <h4>Disabled</h4>
+            <dw-icon-button icon="alarm" disabled></dw-icon-button>
+              <dw-icon-button icon="backup" disabled></dw-icon-button>
+              <dw-icon-button icon="face" disabled></dw-icon-button>
+              <dw-icon-button icon="fingerprint" disabled></dw-icon-button>
+              <dw-icon-button icon="print" disabled></dw-icon-button>
+              <dw-icon-button icon="shopping_cart" disabled></dw-icon-button>
+              <dw-icon-button icon="search" disabled></dw-icon-button>
+              <dw-icon-button icon="perm_media" disabled></dw-icon-button>
             <dw-icon-button icon="perm_media" disabled></dw-icon-button>
           </div>
           <div class="layout vertical center">
             <h4>size : 48</h4>
-            <dw-icon-button icon="perm_media" iconSize="48"></dw-icon-button>
+            <dw-icon-button icon="alarm" iconSize="48"></dw-icon-button>
+              <dw-icon-button icon="backup" iconSize="48"></dw-icon-button>
+              <dw-icon-button icon="face" iconSize="48"></dw-icon-button>
+              <dw-icon-button icon="fingerprint" iconSize="48"></dw-icon-button>
+              <dw-icon-button icon="print" iconSize="48"></dw-icon-button>
+              <dw-icon-button icon="shopping_cart" iconSize="48"></dw-icon-button>
+              <dw-icon-button icon="search"  iconSize="48"></dw-icon-button>
+              <dw-icon-button icon="perm_media"  iconSize="48"></dw-icon-button>
           </div>
         </section>
         <h3> Custom SVG Icons </h3>
