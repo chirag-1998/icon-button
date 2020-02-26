@@ -1,5 +1,13 @@
 # dw-icon-button
 
+-npm i --save @dreamworld/dw-icon
+-npm i --save @dreamworld/flex-layout
+-npm i --save @dreamworld/material-styles
+-npm i --save @material/mwc-switch
+-npm i --save @material/mwc-formfield
+-npm i --save @webcomponents/webcomponentsjs
+-npm i --save lit-element
+
 
 ## Why don't we use `mwc-icon-button`?
 - We created `dw-icon` to have extended icon set, sepecific to the app. But, those icons we can't be used with 
