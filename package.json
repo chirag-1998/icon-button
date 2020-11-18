@@ -20,7 +20,7 @@
     "@material/mwc-formfield": "^0.7.1",
     "@material/mwc-switch": "^0.7.1",
     "@webcomponents/webcomponentsjs": "^2.2.10",
-    "semantic-release": "16.0.0-beta.23"
+    "semantic-release": "17.2.3"
   },
   "resolutions": {
     "@material/mwc-base": "0.7.0",
